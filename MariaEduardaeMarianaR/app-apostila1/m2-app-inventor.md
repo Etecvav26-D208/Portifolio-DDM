@@ -1,19 +1,19 @@
-## Instituição 
+# Instituição 
 `ETEC Vasco Antônio Venchiarutti`
 
 ---
 
-## Curso
+# Curso
 `Informática para Internet`
 
 ---
 
-## Turma
+# Turma
 `2°D`
 
 ---
 
-## Autores
+# Autores
 - `Maria Eduarda Pinto de Oliveira Rodrigues`
 - `Mariana Rasmussen Rezende Alves`
 
