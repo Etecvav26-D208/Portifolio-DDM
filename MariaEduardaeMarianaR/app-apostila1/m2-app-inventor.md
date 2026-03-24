@@ -33,10 +33,11 @@ Desenvolver um aplicativo introdutório com o objetivo de apresentar o funcionam
 
 ---
 ## 🖼️ Prints do Design
-<img src="design1.png" width="300">
+![Design do App](design1.png)
+
 
 ## 🧩 Prints dos Blocos
-<img src="blocos1.png" width="300">
+![Blocos do App](blocos1.png)
 
 
 
