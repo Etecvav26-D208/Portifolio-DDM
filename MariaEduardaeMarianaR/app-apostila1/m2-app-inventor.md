@@ -32,11 +32,11 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
     Em relação ao exemplo apresentado na apostila, foram realizadas modificações na interface do aplicativo para torná-la mais organizada e visualmente agradável. Para isso, foram utilizados sistemas de organização horizontal, permitindo um melhor alinhamento dos elementos na tela e uma apresentação mais clara para o usuário. Essas alterações não modificam o funcionamento principal do aplicativo, mas melhoram sua aparência e usabilidade.
 
 ---
-## 🖼️ Prints do Design
+##  Prints do Design
 ![Design do App](./imagens_relatorio/design1.png)
 
 
-## 🧩 Prints dos Blocos
+##  Prints dos Blocos
 ![Blocos do App](./imagens_relatorio/blocos1.png)
 
 
@@ -65,7 +65,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 
 # Projeto 3 – Terceiro Aplicativo (pg. 56)
 
-## 📖 Descrição
+##  Descrição
 **Objetivo:**  
   O objetivo deste aplicativo é demonstrar o uso de recursos do dispositivo móvel, como vibração e reprodução de sons. A proposta do projeto é criar uma interação simples e divertida, onde o usuário pode simular o funcionamento de um liquidificador ao tocar na imagem exibida na tela.
   
