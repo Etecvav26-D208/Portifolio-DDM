@@ -33,11 +33,11 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 
 ---
 ## 🖼️ Prints do Design
-![Design do App](imagens/design1.PNG)
+![Design do App](imagens_relatorio)
 
 
 ## 🧩 Prints dos Blocos
-![Blocos do App](blocos1.PNG)
+![Blocos do App](imagens_Relatorio/blocos1.png)
 
 
 
