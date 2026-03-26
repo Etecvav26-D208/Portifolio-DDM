@@ -128,16 +128,16 @@ Na Tela 1, foi implementada uma funcionalidade que faz o dispositivo vibrar semp
 ---
 
 ## Print das telas do Design
-![Design 1 do App](imagens/5inter1.png)
-![Design 1 do App](imagens/5inter2.png)
-![Design 1 do App](imagens/5inter3.png)
+![Design 1 do App](./imagens_relatorio/design5.1.png)
+![Design 1 do App](./imagens_relatorio/design5.2.png)
+![Design 1 do App](./imagens_relatorio/design5.3.png)
 
 ---
 
 ## Print das telas dos Blocos
-![Bloco 1 do App](imagens/5blocos1.png)
-![Bloco 1 do App](imagens/5blocos2.png)
-![Bloco 1 do App](imagens/5blocos3.png)
+![Bloco 1 do App](./imagens_relatorio/blocos5.1.png)
+![Bloco 1 do App](./imagens_relatorio/blocos5.2.png)
+![Bloco 1 do App](./imagens_relatorio/blobo5.3.png)
 
 ---
 
