@@ -73,7 +73,8 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
    O aplicativo exibe, no centro da tela, a imagem de um liquidificador. Ao clicar sobre essa imagem, o sistema realiza duas ações ao mesmo tempo: o dispositivo inicia a vibração e reproduz um som característico de liquidificador, simulando seu funcionamento. Além disso, na parte inferior da interface, há um botão que possibilita ao usuário encerrar e sair do aplicativo.
    
 **Modificações realizadas:**  
-    Em relação ao exemplo apresentado na apostila, foram realizadas algumas alterações na interface do aplicativo para melhorar a organização dos elementos na tela. Para isso, foram utilizadas organizações horizontais, deixando o layout mais alinhado e visualmente mais agradável. Também foi realizada uma modificação na programação da vibração do dispositivo, aumentando sua duração de 3000 milissegundos para 5000 milissegundos, tornando o efeito mais perceptível durante a interação.
+    Em relação ao exemplo apresentado na apostila, foram realizadas algumas alterações na interface do aplicativo para melhorar a organização dos elementos na tela. Para isso, foram utilizadas organizações horizontais, deixando o layout mais alinhado e visualmente mais agradável.
+
 
 ---
 
@@ -97,8 +98,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
     O aplicativo conta com um botão que possibilita ao usuário acessar a câmera do celular e capturar uma foto. Após a realização do registro, a imagem obtida é exibida na tela principal, permitindo a visualização do resultado. Além disso, na parte inferior da interface, há um botão que permite encerrar e sair do aplicativo.
     
 **Modificações realizadas:**  
-    Em relação ao exemplo apresentado na apostila, foram realizadas alterações na interface para melhorar a organização e o visual do aplicativo. Os botões foram organizados utilizando estruturas horizontais e receberam cores diferentes, tornando a interface mais clara e agradável para o usuário. Também foi adicionada uma funcionalidade extra: após tirar a foto, o aplicativo exibe um texto na tela comentando que a foto ficou boa, adicionando um pequeno feedback ao usuário após a captura da imagem.
-
+    Em relação ao exemplo apresentado na apostila, foram realizadas alterações na interface para melhorar a organização e o visual do aplicativo. Os botões foram organizados utilizando estruturas horizontais e receberam cores diferentes, tornando a interface mais clara e agradável para o usuário.
 ---
 
 ## Print das telas do Design
@@ -123,8 +123,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 Na Tela 1, foi implementada uma funcionalidade que faz o dispositivo vibrar sempre que o usuário interage com o aplicativo. Já na Tela 2, foi desenvolvido um pequeno painel de sons (soundboard), composto por quatro botões, sendo que cada um reproduz um áudio diferente ao ser acionado.
 
 **Modificações realizadas:**  
-    Em relação ao exemplo apresentado na apostila, foram realizadas diversas melhorias na interface do aplicativo, com o objetivo de deixá-la mais organizada e visualmente mais agradável. Foram feitas mudanças no estilo dos botões, nos fundos das telas e nos textos exibidos. Também foi adicionada uma imagem na tela inicial para melhorar a apresentação do aplicativo. Além disso, foram implementadas novas funcionalidades nas telas secundárias: a Tela 1 passou a ter um recurso de vibração do celular, enquanto a Tela 2 recebeu um soundboard com quatro sons diferentes, ampliando as possibilidades de interação do aplicativo.
-
+    Em relação ao exemplo apresentado na apostila, foram realizadas diversas melhorias na interface do aplicativo, com o objetivo de deixá-la mais organizada e visualmente mais agradável. Foram feitas mudanças no estilo dos botões, nos fundos das telas e nos textos exibidos. 
 ---
 
 ## Print das telas do Design
@@ -151,8 +150,7 @@ Na Tela 1, foi implementada uma funcionalidade que faz o dispositivo vibrar semp
    O aplicativo conta com um campo de texto que permite ao usuário inserir seu nome por meio do teclado do celular. Após digitar o nome e confirmar a ação, o sistema exibe uma mensagem na tela contendo o nome informado, gerando uma resposta personalizada. Dessa forma, o aplicativo exemplifica como coletar e utilizar dados fornecidos pelo usuário durante sua execução.
 
 **Modificações realizadas:**  
-    Em relação ao exemplo apresentado na apostila, foram feitas algumas alterações na interface e na funcionalidade do aplicativo. A cor dos botões foi modificada para melhorar o visual e tornar a interface mais agradável. Além disso, foi implementada uma nova opção que permite ao usuário digitar também a sua cidade. Essa informação é exibida juntamente com o nome na mensagem final, tornando a resposta do aplicativo ainda mais personalizada.
-
+    Em relação ao exemplo apresentado na apostila, foram feitas algumas alterações na interface e na funcionalidade do aplicativo. A cor dos botões foi modificada para melhorar o visual e tornar a interface mais agradável. 
 ---
 
 ## Print das telas do Design
