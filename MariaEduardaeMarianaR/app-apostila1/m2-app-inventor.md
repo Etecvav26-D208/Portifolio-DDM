@@ -54,7 +54,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 ---
 
 ## Print das telas do Design
-![Design do App](./imagens_relatorio/desing2.png)
+![Design do App](./imagens_relatorio/blocos2.1.png)
 
 ---
 
