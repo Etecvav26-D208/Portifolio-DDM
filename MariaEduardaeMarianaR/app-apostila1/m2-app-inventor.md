@@ -99,6 +99,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
     
 **Modificações realizadas:**  
     Em relação ao exemplo apresentado na apostila, foram realizadas alterações na interface para melhorar a organização e o visual do aplicativo. Os botões foram organizados utilizando estruturas horizontais e receberam cores diferentes, tornando a interface mais clara e agradável para o usuário.
+    
 ---
 
 ## Print das telas do Design
