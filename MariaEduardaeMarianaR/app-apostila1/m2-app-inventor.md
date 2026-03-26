@@ -33,7 +33,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 
 ---
 ## 🖼️ Prints do Design
-![Design do App](./imagens_relatorio/)
+![Design do App](./imagens_relatorio/design1.png)
 
 
 ## 🧩 Prints dos Blocos
