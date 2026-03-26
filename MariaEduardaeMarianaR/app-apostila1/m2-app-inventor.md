@@ -37,8 +37,7 @@ O objetivo deste aplicativo é apresentar, de maneira simples, o funcionamento d
 
 
 ## 🧩 Prints dos Blocos
-![Blocos do App](imagens_relatorio/blocos1.png)
-
+![Blocos do App](imagens_relatorio/blocos1)
 
 
 # Projeto 2 – Segundo Aplicativo (pg. 46)
