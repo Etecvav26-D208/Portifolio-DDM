@@ -75,3 +75,19 @@ Os principais componentes utilizados no desenvolvimento do aplicativo foram:
 Esses componentes foram configurados através das propriedades no modo Design e controlados pelos blocos no modo programação.
 
 ---
+
+### Melhorias e ideias próprias
+
+O aplicativo apresenta características próprias em relação aos exemplos da apostila, como:
+
+- Aplicação voltada para organização pessoal (ideia autoral)
+- Interface simples e funcional
+- Uso prático no dia a dia do usuário
+- Possibilidade de expansão futura, como:
+  - adicionar datas
+  - salvar histórico
+  - implementar notificações
+
+Essas melhorias demonstram criatividade e aplicação dos conhecimentos além dos exemplos básicos apresentados.
+
+---
