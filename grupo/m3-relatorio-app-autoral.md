@@ -91,3 +91,21 @@ O aplicativo apresenta características próprias em relação aos exemplos da a
 Essas melhorias demonstram criatividade e aplicação dos conhecimentos além dos exemplos básicos apresentados.
 
 ---
+
+# 🖥 Print das telas do Design
+
+(Insira aqui os prints do modo Design do aplicativo)
+
+Exemplo:
+![Tela Design](imagem1.png)
+
+---
+
+# 🧩 Print das telas dos Blocos
+
+(Insira aqui os prints da programação em blocos)
+
+Exemplo:
+![Blocos](imagem2.png)
+
+---
