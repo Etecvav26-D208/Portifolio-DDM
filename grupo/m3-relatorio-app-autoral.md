@@ -62,3 +62,16 @@ De acordo com a apostila de App Inventor :contentReference[oaicite:0]{index=0}, 
 
 - *Lógica de programação*  
   Organização das ações de forma sequencial e funcional.
+
+### Recursos e componentes utilizados
+
+Os principais componentes utilizados no desenvolvimento do aplicativo foram:
+
+- **TextBox** → para entrada de dados pelo usuário  
+- **Button** → para executar ações (exibir ou limpar informações)  
+- **Label** → para mostrar os dados na tela  
+- **Arranjos (Layouts)** → para organizar os elementos na interface  
+
+Esses componentes foram configurados através das propriedades no modo Design e controlados pelos blocos no modo programação.
+
+---
