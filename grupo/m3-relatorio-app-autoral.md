@@ -43,3 +43,22 @@ O usuário pode:
 A lógica do aplicativo segue o modelo de entrada → processamento → saída, onde o usuário fornece dados e o aplicativo responde exibindo essas informações.
 
 ---
+
+### Conceitos utilizados da apostila
+
+De acordo com a apostila de App Inventor :contentReference[oaicite:0]{index=0}, o projeto utilizou diversos conceitos fundamentais, como:
+
+- *Modo Design (Interface gráfica)*  
+  Utilização da paleta, componentes e propriedades para construir a tela do aplicativo.
+
+- *Modo Blocos (Programação)*  
+  Uso de blocos para definir o comportamento dos botões e ações do aplicativo.
+
+- *Eventos*  
+  Programação baseada em ações do usuário, como o clique em botões.
+
+- *Manipulação de texto*  
+  Uso de entrada e saída de dados através de componentes como TextBox e Label.
+
+- *Lógica de programação*  
+  Organização das ações de forma sequencial e funcional.
