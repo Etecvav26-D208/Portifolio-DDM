@@ -17,8 +17,7 @@ Informática para Internet
 
 # Projeto
 
-## Título
-MyDays
+## My Days
 
 ## Descrição
 
