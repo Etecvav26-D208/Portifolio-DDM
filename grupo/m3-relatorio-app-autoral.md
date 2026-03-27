@@ -109,3 +109,15 @@ Exemplo:
 ![Blocos](imagem2.png)
 
 ---
+#  Considerações finais
+
+O desenvolvimento do aplicativo **MyDays** permitiu aplicar na prática os conceitos estudados na apostila de App Inventor, como construção de interface e programação em blocos.
+
+Além disso, o projeto contribuiu para o desenvolvimento de habilidades como:
+
+- raciocínio lógico  
+- organização de ideias  
+- trabalho em grupo  
+- criatividade  
+
+A atividade demonstrou a importância da tecnologia na criação de soluções simples para problemas do cotidiano.
