@@ -14,90 +14,158 @@ Informática para Internet
 - Pietro Fiorese Dopp
 
 ---
-
 # Projeto
 
 ## My Days
 
 ## Descrição
 
-###  Objetivo do aplicativo
+### Objetivo do aplicativo
 
-O aplicativo **MyDays** tem como objetivo auxiliar o usuário na organização de suas atividades diárias, permitindo registrar informações como seu 
+O aplicativo **MyDays** tem como objetivo permitir que o usuário registre como foi o seu dia de forma detalhada, incluindo humor, produtividade, atividades realizadas e reflexões pessoais.
 
-A proposta é facilitar o planejamento do dia a dia de forma simples e prática, tornando o aplicativo uma ferramenta de apoio pessoal.
+A proposta é funcionar como um diário digital interativo, ajudando o usuário a acompanhar sua rotina, sentimentos e evolução ao longo do tempo.
 
 ---
 
 ### Funcionamento do aplicativo
 
-O funcionamento do aplicativo é baseado na interação direta com o usuário.
+O funcionamento do aplicativo ocorre em etapas obrigatórias:
 
-O usuário pode:
+#### Tela inicial
 
-- Digitar informações em um campo de texto
-- Clicar em um botão para salvar ou exibir essas informações
-- Visualizar o conteúdo digitado na tela
-- Limpar os dados quando necessário
+Ao entrar no aplicativo, o usuário se depara com a tela “Hoje”, onde é solicitado que ele tire uma foto do seu dia.
 
-A lógica do aplicativo segue o modelo de entrada → processamento → saída, onde o usuário fornece dados e o aplicativo responde exibindo essas informações.
+Essa etapa é obrigatória, ou seja, só é possível prosseguir após tirar a foto.
 
 ---
 
-### Conceitos utilizados da apostila
+####-. Preenchimento das informações
 
-De acordo com a apostila de App Inventor :contentReference[oaicite:0]{index=0}, o projeto utilizou diversos conceitos fundamentais, como:
+Após clicar em “Prosseguir”, o usuário é direcionado para uma nova tela onde deve preencher todas as informações do dia.
 
-- *Modo Design (Interface gráfica)*  
-  Utilização da paleta, componentes e propriedades para construir a tela do aplicativo.
+Os campos incluem:
 
-- *Modo Blocos (Programação)*  
-  Uso de blocos para definir o comportamento dos botões e ações do aplicativo.
+- Humor do dia:
+  - Triste
+  - Normal
+  - Feliz
 
-- *Eventos*  
-  Programação baseada em ações do usuário, como o clique em botões.
+- Produtividade:
+  - Fiz algumas coisas
+  - Nada produtivo
 
-- *Manipulação de texto*  
-  Uso de entrada e saída de dados através de componentes como TextBox e Label.
+- Atividades realizadas:
+  - Estudei
+  - Saí de casa
+  - Treinei
+  - Interagi
 
-- *Lógica de programação*  
-  Organização das ações de forma sequencial e funcional.
+- Ponto alto do dia (campo de texto)
 
-### Recursos e componentes utilizados
+- Ponto baixo do dia (campo de texto)
 
-Os principais componentes utilizados no desenvolvimento do aplicativo foram:
+- Relato do dia (opcional)
 
-- **TextBox** → para entrada de dados pelo usuário  
-- **Button** → para executar ações (exibir ou limpar informações)  
-- **Label** → para mostrar os dados na tela  
-- **Arranjos (Layouts)** → para organizar os elementos na interface  
-
-Esses componentes foram configurados através das propriedades no modo Design e controlados pelos blocos no modo programação.
+Todos os campos principais são obrigatórios para garantir um registro completo.
 
 ---
 
-### Melhorias e ideias próprias
+#### ✅ Finalização
 
-O aplicativo apresenta características próprias em relação aos exemplos da apostila, como:
+Após preencher todas as informações, o usuário finaliza o registro do dia.
 
-- Aplicação voltada para organização pessoal (ideia autoral)
-- Interface simples e funcional
-- Uso prático no dia a dia do usuário
-- Possibilidade de expansão futura, como:
-  - adicionar datas
-  - salvar histórico
-  - implementar notificações
+---
 
-Essas melhorias demonstram criatividade e aplicação dos conhecimentos além dos exemplos básicos apresentados.
+#### 📚 Tela de histórico (Meu Diário)
+
+Ao finalizar, o usuário é automaticamente direcionado para a tela “Meu Diário”, onde ficam armazenados todos os registros feitos.
+
+Cada registro apresenta:
+
+- Data
+- Humor
+- Resumo do dia
+
+---
+
+#### 🔍 Visualização detalhada
+
+Ao clicar em um registro, o usuário pode visualizar todas as informações salvas:
+
+- Foto do dia
+- Humor
+- Produtividade
+- Atividades (representadas como true/false)
+- Ponto alto
+- Ponto baixo
+- Texto do diário
+
+Também existe a opção de excluir o registro.
+
+---
+
+### 📚 Conceitos utilizados da apostila
+
+O projeto utilizou diversos conceitos do App Inventor, como:
+
+- **Modo Design (Interface gráfica)**  
+  Criação das telas com componentes visuais.
+
+- **Modo Blocos (Programação)**  
+  Desenvolvimento da lógica do aplicativo.
+
+- **Eventos**  
+  Ações baseadas na interação do usuário (cliques, seleção, etc.).
+
+- **Uso de câmera**  
+  Captura de imagem obrigatória no início.
+
+- **Entrada e saída de dados**  
+  Uso de TextBox, Labels e CheckBox.
+
+- **Lógica condicional**  
+  Validação dos campos obrigatórios.
+
+- **Armazenamento de dados**  
+  Salvamento dos registros para exibição no histórico.
+
+---
+
+### 🧩 Recursos e componentes utilizados
+
+- Camera ou Image Picker → captura da foto  
+- Button → ações (Prosseguir, Finalizar, Excluir)  
+- Label → exibição de textos  
+- TextBox → entrada de dados  
+- CheckBox → seleção de atividades  
+- Arranjos (Layouts) → organização da interface  
+- TinyDB (ou similar) → armazenamento dos dados  
+
+---
+
+### 💡 Melhorias e ideias próprias
+
+O aplicativo apresenta melhorias em relação aos exemplos da apostila:
+
+- Uso de foto obrigatória
+- Sistema completo de diário
+- Histórico de registros
+- Interface simples e intuitiva
+- Uso de diferentes tipos de dados (imagem, texto e seleção)
+
+Possíveis melhorias futuras:
+
+- edição de registros  
+- filtros por data ou humor  
+- gráficos de acompanhamento  
+- notificações diárias  
 
 ---
 
 # 🖥 Print das telas do Design
 
-(Insira aqui os prints do modo Design do aplicativo)
-
-Exemplo:
-![Tela Design](imagem1.png)
+(Insira aqui os prints das telas do aplicativo)
 
 ---
 
@@ -105,19 +173,19 @@ Exemplo:
 
 (Insira aqui os prints da programação em blocos)
 
-Exemplo:
-![Blocos](imagem2.png)
-
 ---
-#  Considerações finais
 
-O desenvolvimento do aplicativo **MyDays** permitiu aplicar na prática os conceitos estudados na apostila de App Inventor, como construção de interface e programação em blocos.
+# 📌 Considerações finais
 
-Além disso, o projeto contribuiu para o desenvolvimento de habilidades como:
+O desenvolvimento do aplicativo **MyDays** permitiu aplicar na prática diversos conceitos do App Inventor, indo além dos exemplos básicos.
+
+O projeto se mostrou funcional e próximo de um aplicativo real, utilizando múltiplas telas, validação de dados, uso de câmera e armazenamento de informações.
+
+Além disso, contribuiu para o desenvolvimento de habilidades como:
 
 - raciocínio lógico  
 - organização de ideias  
-- trabalho em grupo  
 - criatividade  
+- desenvolvimento de soluções digitais
 
 A atividade demonstrou a importância da tecnologia na criação de soluções simples para problemas do cotidiano.
