@@ -40,7 +40,7 @@ Essa etapa é obrigatória, ou seja, só é possível prosseguir após tirar a f
 
 ---
 
-####-. Preenchimento das informações
+#### Preenchimento das informações
 
 Após clicar em “Prosseguir”, o usuário é direcionado para uma nova tela onde deve preencher todas as informações do dia.
 
@@ -71,13 +71,13 @@ Todos os campos principais são obrigatórios para garantir um registro completo
 
 ---
 
-#### ✅ Finalização
+#### Finalização
 
 Após preencher todas as informações, o usuário finaliza o registro do dia.
 
 ---
 
-#### 📚 Tela de histórico (Meu Diário)
+#### Tela de histórico (Meu Diário)
 
 Ao finalizar, o usuário é automaticamente direcionado para a tela “Meu Diário”, onde ficam armazenados todos os registros feitos.
 
@@ -89,7 +89,7 @@ Cada registro apresenta:
 
 ---
 
-#### 🔍 Visualização detalhada
+#### Visualização detalhada
 
 Ao clicar em um registro, o usuário pode visualizar todas as informações salvas:
 
@@ -105,7 +105,7 @@ Também existe a opção de excluir o registro.
 
 ---
 
-### 📚 Conceitos utilizados da apostila
+### Conceitos utilizados da apostila
 
 O projeto utilizou diversos conceitos do App Inventor, como:
 
@@ -132,7 +132,7 @@ O projeto utilizou diversos conceitos do App Inventor, como:
 
 ---
 
-### 🧩 Recursos e componentes utilizados
+### Recursos e componentes utilizados
 
 - Camera ou Image Picker → captura da foto  
 - Button → ações (Prosseguir, Finalizar, Excluir)  
@@ -144,7 +144,7 @@ O projeto utilizou diversos conceitos do App Inventor, como:
 
 ---
 
-### 💡 Melhorias e ideias próprias
+### Melhorias e ideias próprias
 
 O aplicativo apresenta melhorias em relação aos exemplos da apostila:
 
@@ -154,28 +154,21 @@ O aplicativo apresenta melhorias em relação aos exemplos da apostila:
 - Interface simples e intuitiva
 - Uso de diferentes tipos de dados (imagem, texto e seleção)
 
-Possíveis melhorias futuras:
-
-- edição de registros  
-- filtros por data ou humor  
-- gráficos de acompanhamento  
-- notificações diárias  
-
 ---
 
-# 🖥 Print das telas do Design
+# Print das telas do Design
 
 (Insira aqui os prints das telas do aplicativo)
 
 ---
 
-# 🧩 Print das telas dos Blocos
+# Print das telas dos Blocos
 
 (Insira aqui os prints da programação em blocos)
 
 ---
 
-# 📌 Considerações finais
+# Considerações finais
 
 O desenvolvimento do aplicativo **MyDays** permitiu aplicar na prática diversos conceitos do App Inventor, indo além dos exemplos básicos.
 
