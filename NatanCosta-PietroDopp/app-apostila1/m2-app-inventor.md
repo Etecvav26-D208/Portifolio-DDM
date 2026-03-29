@@ -3,7 +3,7 @@
 ---
 
 ## Instituição
-Etec VAV
+Etec Vasco Antônio Venchiarutti
 
 ## Curso
 Informática para Internet
@@ -12,8 +12,8 @@ Informática para Internet
 2º Ano – Ensino Médio Integrado
 
 ## Autores
-Natan (Na Na)  
-Lucas
+- Natan Alexandro Silva Costa
+- Pietro Fiorese Dopp
 
 ---
 
