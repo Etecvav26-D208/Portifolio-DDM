@@ -53,13 +53,13 @@ Como melhoria, foram feitos ajustes no posicionamento da imagem e organização 
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoCameraApp.png) | Interface com componente de imagem e botão de ação |
+| ![](./Imgs/ProjetoPintar.png) | Interface com componente de imagem e botão de ação |
 
 ### Print das telas dos Blocos
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoCameraAppBlocos.png) | Blocos responsáveis pela manipulação da imagem |
+| ![](./Imgs/ProjetoPintarBlocos.png) | Blocos responsáveis pela manipulação da imagem |
 
 ---
 
@@ -76,13 +76,13 @@ Como melhoria, foi possível ajustar cores e espessura do traço, tornando o apl
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoPintar.png) | Tela com área de desenho (Canvas) |
+| ![](./Imgs/ProjetoLiquidificador.png) | Tela com área de desenho (Canvas) |
 
 ### Print das telas dos Blocos
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/projetoPintar.png) | Blocos que controlam o desenho com base no toque |
+| ![](./Imgs/ProjetoLiquidificadorBlocos.png) | Blocos que controlam o desenho com base no toque |
 
 ---
 
@@ -99,13 +99,13 @@ Como melhoria, foram ajustadas as transições e organização dos elementos par
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoLiquidificador.png) | Interface com botão de controle e imagem do liquidificador |
+| ![](./Imgs/ProjetoCamerApp.png) | Interface com botão de controle e imagem do liquidificador |
 
 ### Print das telas dos Blocos
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoLiquidificadorBlocos.png) | Blocos responsáveis por ligar/desligar e trocar estados |
+| ![](./Imgs/ProjetoCameraAppBlocos.png) | Blocos responsáveis por ligar/desligar e trocar estados |
 
 ---
 
@@ -151,13 +151,13 @@ Como melhoria, foram feitos ajustes na interface e organização dos blocos para
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoCameraApp.png) | Interface geral do aplicativo com múltiplos componentes |
+| ![](./Imgs/ProjetoTeclado.png) | Interface geral do aplicativo com múltiplos componentes |
 
 ### Print das telas dos Blocos
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoCameraAppBlocos.png) | Estrutura lógica do aplicativo com blocos organizados |
+| ![](./Imgs/ProjetoTecladoBlocos.png) | Estrutura lógica do aplicativo com blocos organizados |
 
 ---
 
