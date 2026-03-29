@@ -47,12 +47,10 @@ Após clicar em “Prosseguir”, o usuário é direcionado para uma nova tela o
 
 Os campos incluem:
 
-- Humor do dia:
-  - Muito Triste
+- Humor do dia
   - Triste
-  - Neutro
+  - Normal
   - Feliz
-  - Muito Feliz
 
 - Produtividade:
   - Nada Produtivo
@@ -64,9 +62,8 @@ Os campos incluem:
   - Saí de casa
   - Treinei
   - Interagi
-  - Li livros
-  - Fez amigos
 
+ 
 - Ponto alto do dia (campo de texto)
 
 - Ponto baixo do dia (opcinal)
