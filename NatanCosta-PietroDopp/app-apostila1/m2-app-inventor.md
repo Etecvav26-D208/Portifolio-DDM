@@ -99,7 +99,7 @@ Como melhoria, foram ajustadas as transições e organização dos elementos par
 
 | Imagem | Descrição |
 |------|----------|
-| ![](./Imgs/ProjetoCamerApp.png) | Interface com botão de controle e imagem do liquidificador |
+| ![](./Imgs/ProjetoCameraApp.png) | Interface com botão de controle e imagem do liquidificador |
 
 ### Print das telas dos Blocos
 
