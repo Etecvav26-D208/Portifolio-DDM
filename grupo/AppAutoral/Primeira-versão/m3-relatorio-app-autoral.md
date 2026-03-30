@@ -33,7 +33,7 @@ A proposta é funcionar como um diário digital interativo, ajudando o usuário 
 O funcionamento do aplicativo ocorre em etapas obrigatórias:
 
 #### Tela inicial
-![Design 1 do App](./recusos_app/telas_app/Telas1.jpn)
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela1.jpg)
 Ao entrar no aplicativo, o usuário se depara com a tela “Hoje”, onde é solicitado que ele tire uma foto, ou selecione uma imagem da galeria do seu dia ou que o represente.
 
 Essa etapa é obrigatória, ou seja, só é possível prosseguir após inserir a foto. 
