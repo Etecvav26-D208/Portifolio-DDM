@@ -10,7 +10,7 @@ Informática para Internet
 # Autores
 - Maria Eduarda Pinto de Oliveira Rodrigues
 - Mariana Rasmussen Rezende Alves
-- Natan Alexandro
+- Natan Alexandro Silva Costa
 - Pietro Fiorese Dopp
 
 ---
