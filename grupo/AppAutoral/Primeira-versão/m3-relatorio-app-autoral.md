@@ -33,7 +33,7 @@ A proposta é funcionar como um diário digital interativo, ajudando o usuário 
 O funcionamento do aplicativo ocorre em etapas obrigatórias:
 
 #### Tela inicial
-  <img src="/grupo/recursos-do-app/fotos_telas/Tela1.jpg" width="300">
+  <img src="/grupo/recursos-do-app/fotos_telas/Tela1.jpg" width="400">
 Ao entrar no aplicativo, o usuário se depara com a tela “Hoje”, onde é solicitado que ele tire uma foto, ou selecione uma imagem da galeria do seu dia ou que o represente.
 
 Essa etapa é obrigatória, ou seja, só é possível prosseguir após inserir a foto. 
@@ -42,9 +42,9 @@ O app verifica se a imagem padrão da tela foi alterada ao apertar o botão "Pro
 ---
 
 #### Preenchimento das informações
-
+  <img src="/grupo/recursos-do-app/fotos_telas/Tela2.jpg" width="400">
 Após clicar em “Prosseguir”, o usuário é direcionado para uma nova tela onde deve preencher todas as informações do dia.
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela2.jpg)
+
 
 Os campos incluem:
 
@@ -81,17 +81,14 @@ Após preencher todas as informações, o usuário finaliza o registro do dia.
 Aqui é onde entra a ação principal do TinyDB, ferramenta de banco de dados disponível no App Inventor. Aqui uma variável guarda todas as informações preencidas pelo usuário numa lista, e adicina também data dia da semana no momento exato do registro.
 Assim o usuário termina direcionado para a tela "Hoje" novamente. 
 OBS: é possóvel criar quantos registros quiser no dia, mas o processo da foto e preenchimento do formulário terão que ser repetidos.
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela3.jpg)
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela4.jpg)
-
-
+  <img src="/grupo/recursos-do-app/fotos_telas/Tela3.jpg" width="400">  <img src="/grupo/recursos-do-app/fotos_telas/Tela4.jpg" width="400">
 
 ---
 
 #### Tela de histórico (Meu Diário)
 
 Ao finalizar, o usuário pode clicar em "Meu Diário" é automaticamente direcionado para a tela “Meu Diário”, onde ficam armazenados todos os registros feitos.
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela5.jpg)
+  <img src="/grupo/recursos-do-app/fotos_telas/Tela5.jpg" width="400">
 
 
 Cada registro apresenta:
@@ -106,7 +103,7 @@ Cada registro apresenta:
 
 Ao clicar em um registro, o usuário pode visualizar todas as informações salvas:
 
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/tela6.jpg)
+  <img src="/grupo/recursos-do-app/fotos_telas/tela6.jpg" width="400">
 
 - Foto do dia
 - Humor
