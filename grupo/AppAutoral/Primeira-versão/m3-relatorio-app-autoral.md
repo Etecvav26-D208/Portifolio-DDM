@@ -178,15 +178,17 @@ O aplicativo apresenta melhorias em relação aos exemplos da apostila:
 
 ---
 
-# Print das telas do Design
-
-(Insira aqui os prints das telas do aplicativo)
-
----
-
 # Print das telas dos Blocos
 
-(Insira aqui os prints da programação em blocos)
+### Tela Incial
+  <img src="/grupo/recursos-do-app/fotos_telas/tela0.png" width="400">
+  <img src="/grupo/recursos-do-app/fotos_telas/bloco4.png" width="400">
+
+  ### Tela com Informações
+   <img src="/grupo/recursos-do-app/fotos_telas/bloco2.png" width="400">
+   <img src="/grupo/recursos-do-app/fotos_telas/bloco2.1.png." width="400">
+     <img src="/grupo/recursos-do-app/fotos_telas/bloco2.2.png" width="400">
+ 
 
 ---
 
