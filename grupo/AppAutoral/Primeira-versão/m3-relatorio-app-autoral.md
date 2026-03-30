@@ -106,7 +106,7 @@ Cada registro apresenta:
 
 Ao clicar em um registro, o usuário pode visualizar todas as informações salvas:
 
-![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela6.jpg)
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/tela6.jpg)
 
 - Foto do dia
 - Humor
