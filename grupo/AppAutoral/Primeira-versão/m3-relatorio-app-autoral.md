@@ -184,14 +184,22 @@ O aplicativo apresenta melhorias em relação aos exemplos da apostila:
 ### Tela Incial
   <img src="/grupo/recursos-do-app/fotos_telas/tela0.png" width="400">
   <img src="/grupo/recursos-do-app/fotos_telas/bloco4.png" width="400">
+
+  ---
  
 
   ### Tela com Informações
    <img src="/grupo/recursos-do-app/fotos_telas/bloco1.png" width="400">
    <img src="/grupo/recursos-do-app/fotos_telas/bloco1.2.png" width="400">
+
+
+   ---
  
  ### Tela Diario
   <img src="/grupo/recursos-do-app/fotos_telas/bloco3.png" width="400">
+
+
+  ---
 
   ### Tela dentro do diario
   <img src="/grupo/recursos-do-app/fotos_telas/bloco2.png" width="400">
