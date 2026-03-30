@@ -81,12 +81,18 @@ Após preencher todas as informações, o usuário finaliza o registro do dia.
 Aqui é onde entra a ação principal do TinyDB, ferramenta de banco de dados disponível no App Inventor. Aqui uma variável guarda todas as informações preencidas pelo usuário numa lista, e adicina também data dia da semana no momento exato do registro.
 Assim o usuário termina direcionado para a tela "Hoje" novamente. 
 OBS: é possóvel criar quantos registros quiser no dia, mas o processo da foto e preenchimento do formulário terão que ser repetidos.
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela3.jpg)
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela4.jpg)
+
+
 
 ---
 
 #### Tela de histórico (Meu Diário)
 
 Ao finalizar, o usuário pode clicar em "Meu Diário" é automaticamente direcionado para a tela “Meu Diário”, onde ficam armazenados todos os registros feitos.
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela5.jpg)
+
 
 Cada registro apresenta:
 
@@ -99,6 +105,8 @@ Cada registro apresenta:
 #### Visualização detalhada
 
 Ao clicar em um registro, o usuário pode visualizar todas as informações salvas:
+
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela6.jpg)
 
 - Foto do dia
 - Humor
