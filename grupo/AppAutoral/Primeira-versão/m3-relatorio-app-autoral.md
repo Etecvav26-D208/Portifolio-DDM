@@ -44,6 +44,7 @@ O app verifica se a imagem padrão da tela foi alterada ao apertar o botão "Pro
 #### Preenchimento das informações
 
 Após clicar em “Prosseguir”, o usuário é direcionado para uma nova tela onde deve preencher todas as informações do dia.
+![Design 1 do App](/grupo/recursos-do-app/fotos_telas/Tela2.jpg)
 
 Os campos incluem:
 
