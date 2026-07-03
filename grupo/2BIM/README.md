@@ -472,3 +472,295 @@ $texto = openssl_decrypt(
 ```
 
 Essas funções são muito utilizadas em sistemas bancários, aplicações corporativas e plataformas que precisam proteger informações sensíveis durante o armazenamento ou transmissão.
+# 6. Proteção de Senhas
+
+As senhas representam uma das principais formas de autenticação em aplicações web. Por esse motivo, devem ser armazenadas de maneira segura, evitando que possam ser recuperadas caso ocorra um vazamento do banco de dados.
+
+## Como uma senha deve ser armazenada corretamente?
+
+Uma senha **nunca deve ser salva em texto puro (Plain Text)**. O correto é armazenar apenas seu **hash**, utilizando funções próprias do PHP, como `password_hash()`.
+
+Dessa forma, mesmo que o banco de dados seja invadido, os criminosos não terão acesso às senhas originais dos usuários.
+
+### Exemplo correto
+
+```php
+$senha = "MinhaSenha123";
+
+$hash = password_hash($senha, PASSWORD_DEFAULT);
+```
+
+No banco de dados será armazenado apenas o hash.
+
+---
+
+## Por que nunca devemos salvar senhas em texto puro?
+
+Salvar senhas diretamente no banco de dados representa um enorme risco de segurança.
+
+Caso um invasor consiga acessar o banco, todas as senhas poderão ser visualizadas imediatamente.
+
+Isso pode causar diversos problemas, como:
+
+- Roubo de contas;
+- Fraudes financeiras;
+- Vazamento de informações pessoais;
+- Acesso indevido a outros sistemas, já que muitos usuários reutilizam suas senhas.
+
+Por esse motivo, utilizar funções de hash é considerado uma prática obrigatória.
+
+---
+
+## O que é Salt?
+
+O **Salt** é um valor aleatório adicionado à senha antes da geração do hash.
+
+Sua função é impedir que duas pessoas com a mesma senha tenham exatamente o mesmo hash armazenado.
+
+Além disso, o Salt dificulta ataques utilizando tabelas pré-computadas, conhecidas como **Rainbow Tables**.
+
+O PHP gera automaticamente um Salt quando utilizamos a função `password_hash()`.
+
+---
+
+## O que torna um algoritmo de hash seguro?
+
+Um algoritmo de hash seguro deve possuir diversas características importantes:
+
+- Ser resistente à descoberta da senha original;
+- Produzir hashes únicos para pequenas alterações na entrada;
+- Ser lento o suficiente para dificultar ataques de força bruta;
+- Utilizar Salt automaticamente;
+- Permitir atualização do custo computacional conforme o avanço do hardware.
+
+Os algoritmos **Bcrypt** e **Argon2id** atendem a esses requisitos e são recomendados atualmente.
+
+---
+
+# 7. Proteção contra Ataques
+
+Durante o desenvolvimento de aplicações PHP, é necessário adotar medidas que reduzam os riscos de ataques cibernéticos.
+
+## SQL Injection
+
+### O que é?
+
+SQL Injection é um ataque no qual comandos SQL maliciosos são inseridos em campos de entrada da aplicação.
+
+Caso o sistema não valide corretamente as informações, esses comandos poderão ser executados pelo banco de dados.
+
+### Exemplo
+
+Um invasor pode inserir:
+
+```sql
+' OR '1'='1
+```
+
+Caso a consulta seja construída incorretamente, todos os registros poderão ser retornados.
+
+### Como prevenir?
+
+- Utilizar Prepared Statements;
+- Utilizar parâmetros nas consultas;
+- Validar dados recebidos;
+- Nunca concatenar SQL com dados informados pelo usuário.
+
+Exemplo utilizando PDO:
+
+```php
+$sql = $pdo->prepare("SELECT * FROM usuarios WHERE email = ?");
+$sql->execute([$email]);
+```
+
+---
+
+## Cross-Site Scripting (XSS)
+
+### O que é?
+
+O XSS ocorre quando um invasor consegue inserir códigos JavaScript maliciosos em páginas da aplicação.
+
+Esses códigos serão executados no navegador de outros usuários.
+
+### Consequências
+
+- Roubo de cookies;
+- Roubo de sessões;
+- Captura de senhas;
+- Redirecionamentos para páginas falsas.
+
+### Como prevenir?
+
+- Escapar dados utilizando `htmlspecialchars()`;
+- Validar entradas do usuário;
+- Evitar exibir HTML enviado pelos usuários.
+
+Exemplo:
+
+```php
+echo htmlspecialchars($nome);
+```
+
+---
+
+## Cross-Site Request Forgery (CSRF)
+
+### O que é?
+
+O CSRF acontece quando um usuário autenticado executa ações sem perceber, induzido por um site malicioso.
+
+Como o navegador já possui uma sessão válida, o servidor acredita que a ação foi realizada pelo próprio usuário.
+
+### Como prevenir?
+
+- Utilizar Tokens CSRF;
+- Verificar origem das requisições;
+- Utilizar cookies seguros.
+
+---
+
+# 8. Aplicações Práticas
+
+Os recursos de segurança estudados são utilizados diariamente em diversos sistemas.
+
+## Sistemas de Login
+
+As senhas são armazenadas utilizando `password_hash()` e verificadas com `password_verify()`.
+
+Isso impede que as senhas fiquem expostas no banco de dados.
+
+---
+
+## Comércio Eletrônico
+
+Lojas virtuais armazenam dados de clientes, pedidos e pagamentos.
+
+A criptografia protege informações financeiras durante a transmissão pela Internet.
+
+---
+
+## Internet Banking
+
+Os bancos utilizam criptografia avançada para proteger transferências, saldos, extratos e autenticação dos clientes.
+
+Além disso, utilizam certificados digitais e conexões HTTPS para impedir interceptações.
+
+---
+
+## Redes Sociais
+
+Redes sociais armazenam milhões de informações pessoais.
+
+Por isso utilizam:
+
+- Hash de senhas;
+- Criptografia;
+- Autenticação em dois fatores;
+- Monitoramento constante de acessos.
+
+---
+
+## Sistemas Escolares
+
+Escolas e universidades armazenam notas, frequência, documentos e dados pessoais.
+
+Essas informações precisam permanecer protegidas para garantir a privacidade dos alunos.
+
+---
+
+## Sistemas de Gerenciamento de Usuários
+
+Empresas utilizam autenticação segura para controlar permissões de acesso.
+
+Cada usuário possui níveis diferentes de autorização, evitando acesso indevido às informações.
+
+---
+
+# 9. Boas Práticas de Segurança
+
+Algumas recomendações são fundamentais para desenvolver aplicações PHP mais seguras.
+
+## Validar todas as entradas
+
+Nunca confiar nos dados enviados pelos usuários.
+
+Todas as informações devem ser verificadas antes de serem utilizadas.
+
+---
+
+## Utilizar Prepared Statements
+
+As consultas preparadas impedem ataques de SQL Injection.
+
+Sempre devem ser utilizadas ao acessar bancos de dados.
+
+---
+
+## Proteger Sessões
+
+É importante utilizar:
+
+- Cookies seguros;
+- Expiração automática da sessão;
+- Regeneração do ID da sessão após o login.
+
+---
+
+## Utilizar HTTPS
+
+O protocolo HTTPS criptografa toda a comunicação entre navegador e servidor.
+
+Assim, terceiros não conseguem interceptar as informações transmitidas.
+
+---
+
+## Manter o PHP atualizado
+
+Novas versões corrigem vulnerabilidades e melhoram a segurança da linguagem.
+
+Atualizações frequentes reduzem os riscos de ataques.
+
+---
+
+## Proteger arquivos de configuração
+
+Arquivos contendo senhas de banco de dados e chaves criptográficas nunca devem ficar acessíveis publicamente.
+
+Essas informações devem permanecer fora da pasta pública da aplicação.
+
+---
+
+## Realizar backups
+
+Backups periódicos permitem recuperar informações em caso de falhas ou ataques.
+
+Também devem ser protegidos por criptografia.
+
+---
+
+# 10. Conclusão
+
+A segurança em aplicações web é indispensável para garantir a proteção das informações dos usuários e o funcionamento adequado dos sistemas. À medida que cresce o número de ataques cibernéticos, torna-se cada vez mais importante utilizar técnicas e ferramentas capazes de reduzir vulnerabilidades e impedir acessos não autorizados.
+
+Durante esta pesquisa foi possível compreender as diferenças entre criptografia, hash e codificação, além de conhecer as principais funções disponibilizadas pelo PHP para proteção de dados. Também foi possível entender a importância do armazenamento correto de senhas utilizando `password_hash()` e `password_verify()`, da utilização da biblioteca OpenSSL para criptografia e das boas práticas para prevenir ataques como SQL Injection, XSS e CSRF.
+
+Entre todos os recursos pesquisados, o armazenamento seguro de senhas utilizando algoritmos modernos de hash pode ser considerado um dos mais importantes, pois protege diretamente a autenticação dos usuários e reduz significativamente os impactos de possíveis vazamentos de banco de dados.
+
+Conclui-se que o desenvolvimento seguro deve fazer parte de todas as etapas da criação de aplicações web. A utilização correta das funções do PHP, aliada às boas práticas de programação e à atualização constante dos sistemas, contribui para aplicações mais confiáveis, protegidas e preparadas para enfrentar os desafios da segurança da informação.
+
+---
+
+# Referências
+
+BRASIL. **Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD).** Disponível em: <https://www.planalto.gov.br/>. Acesso em: 03 jul. 2026.
+
+OWASP FOUNDATION. **OWASP Top 10: The Ten Most Critical Web Application Security Risks.** Disponível em: <https://owasp.org/>. Acesso em: 03 jul. 2026.
+
+PHP. **PHP Manual.** Disponível em: <https://www.php.net/manual/pt_BR/>. Acesso em: 03 jul. 2026.
+
+OpenSSL Project. **OpenSSL Documentation.** Disponível em: <https://www.openssl.org/docs/>. Acesso em: 03 jul. 2026.
+
+STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas.** 7. ed. São Paulo: Pearson.
+
+TANENBAUM, Andrew S.; WETHERALL, David. **Redes de Computadores.** 5. ed. São Paulo: Pearson.
