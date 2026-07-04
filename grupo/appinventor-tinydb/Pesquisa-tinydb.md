@@ -495,3 +495,41 @@ Boas práticas
 ├── Testar o aplicativo
 └── Limpar dados antigos
 ```
+
+# 8. Conclusão
+
+O TinyDB é um dos componentes mais importantes do MIT App Inventor para o armazenamento local de informações. Sua utilização permite desenvolver aplicativos capazes de manter dados salvos mesmo após o encerramento da aplicação, proporcionando maior praticidade ao usuário.
+
+Durante esta pesquisa foi possível compreender o funcionamento do TinyDB, seus principais blocos de programação, aplicações práticas e diferenças em relação ao TinyWebDB. Também foram apresentadas boas práticas para organizar e proteger os dados armazenados.
+
+Embora seja uma excelente solução para aplicativos simples e que funcionam sem acesso à Internet, o TinyDB possui limitações relacionadas ao compartilhamento de informações entre diferentes dispositivos. Para aplicações colaborativas ou que necessitam de sincronização online, recomenda-se utilizar bancos de dados remotos.
+
+Conclui-se que o TinyDB é uma ferramenta simples, eficiente e muito importante para o desenvolvimento de aplicativos móveis no MIT App Inventor, principalmente em projetos educacionais e de pequeno porte (MIT APP INVENTOR, 2026).
+
+---
+
+# Referências
+
+MIT APP INVENTOR. **MIT App Inventor Documentation.** Disponível em: <https://appinventor.mit.edu/>. Acesso em: 03 jul. 2026.
+
+MIT APP INVENTOR. **TinyDB Component Documentation.** Disponível em: <https://ai2.appinventor.mit.edu/reference/components/storage.html>. Acesso em: 03 jul. 2026.
+
+OWASP FOUNDATION. **OWASP Top 10: The Ten Most Critical Web Application Security Risks 2021.** Disponível em: <https://owasp.org/www-project-top-ten/>. Acesso em: 03 jul. 2026.
+
+WOLBER, David; ABELSON, Hal; FRIEDMAN, Mark; GRISWOLD, Ellen. **App Inventor 2: Create Your Own Android Apps.** Sebastopol: O'Reilly Media, 2015.
+
+---
+
+# Sugestões de imagens
+
+Para enriquecer o trabalho, você pode inserir as seguintes imagens:
+
+- Tela inicial do MIT App Inventor.
+- Componente TinyDB no Designer.
+- Bloco **StoreValue**.
+- Bloco **GetValue**.
+- Bloco **ClearTag**.
+- Bloco **ClearAll**.
+- Fluxograma de funcionamento do TinyDB.
+
+Essas imagens podem ser capturadas do próprio MIT App Inventor ou obtidas na documentação oficial, citando a fonte.
