@@ -354,3 +354,144 @@ Após sua execução, todas as Tags e seus respectivos valores são apagados.
 | ClearAll | Remove todos os dados | Limpar completamente o TinyDB |
 
 Segundo a documentação oficial do MIT App Inventor (2026), esses quatro blocos representam as principais operações realizadas no TinyDB e permitem implementar aplicações capazes de armazenar informações de forma simples e eficiente.
+
+# 5. Aplicações Práticas do TinyDB
+
+O TinyDB é amplamente utilizado em aplicativos que precisam armazenar pequenas quantidades de dados diretamente no dispositivo do usuário. Como os dados permanecem salvos mesmo após o aplicativo ser fechado, ele é ideal para aplicações que não dependem de internet (MIT APP INVENTOR, 2026).
+
+## Exemplos de utilização
+
+### Lista de tarefas
+
+O TinyDB pode armazenar tarefas criadas pelo usuário, permitindo que elas permaneçam salvas mesmo após o aplicativo ser fechado.
+
+### Cadastro de usuários
+
+Informações como nome, telefone e e-mail podem ser armazenadas localmente para facilitar o uso do aplicativo.
+
+### Controle financeiro
+
+Aplicativos de finanças podem salvar despesas, receitas e saldo diretamente no dispositivo.
+
+### Jogos
+
+É possível armazenar:
+
+- Pontuação;
+- Recordes;
+- Nível alcançado;
+- Configurações do jogador.
+
+### Configurações do aplicativo
+
+O TinyDB permite salvar preferências do usuário, como:
+
+- Tema claro ou escuro;
+- Idioma;
+- Volume;
+- Tamanho da fonte.
+
+---
+
+## Figura 4 – Exemplos de utilização
+
+```text
+TinyDB
+│
+├── Lista de tarefas
+├── Cadastro
+├── Jogos
+├── Controle financeiro
+└── Configurações
+```
+
+---
+
+# 6. Diferença entre TinyDB e TinyWebDB
+
+Embora possuam nomes semelhantes, TinyDB e TinyWebDB apresentam diferenças importantes.
+
+O TinyDB armazena informações na memória do próprio dispositivo. Já o TinyWebDB utiliza um servidor na Internet para armazenar os dados, permitindo que diferentes dispositivos compartilhem as mesmas informações (MIT APP INVENTOR, 2026).
+
+## Comparação
+
+| Característica | TinyDB | TinyWebDB |
+|----------------|---------|-----------|
+| Local de armazenamento | Dispositivo | Servidor |
+| Necessita Internet | Não | Sim |
+| Compartilha dados | Não | Sim |
+| Velocidade | Alta | Depende da conexão |
+| Indicado para | Aplicativos simples | Aplicativos colaborativos |
+
+## Quando utilizar?
+
+### TinyDB
+
+- Aplicativos offline;
+- Jogos;
+- Agenda;
+- Lista de tarefas;
+- Configurações.
+
+### TinyWebDB
+
+- Chat;
+- Aplicativos escolares;
+- Sistemas online;
+- Compartilhamento entre usuários.
+
+---
+
+# 7. Boas Práticas
+
+Durante o desenvolvimento de aplicativos utilizando o TinyDB, algumas recomendações ajudam a manter os dados organizados e evitar problemas.
+
+## Utilizar Tags organizadas
+
+As Tags devem possuir nomes simples e fáceis de identificar.
+
+Exemplos:
+
+- Nome
+- Email
+- Senha
+- Pontuação
+- Configurações
+
+---
+
+## Evitar informações desnecessárias
+
+Armazenar apenas os dados realmente necessários melhora o desempenho do aplicativo.
+
+---
+
+## Proteger informações sensíveis
+
+O TinyDB não criptografa automaticamente os dados. Portanto, informações como senhas e dados bancários não devem ser armazenadas diretamente nesse componente. Para esses casos, recomenda-se utilizar mecanismos de criptografia ou serviços especializados em armazenamento seguro (OWASP FOUNDATION, 2021).
+
+---
+
+## Limpar informações antigas
+
+Utilizar os blocos **ClearTag** e **ClearAll** quando necessário evita o acúmulo de dados desnecessários.
+
+---
+
+## Testar o aplicativo
+
+Antes da publicação, é importante verificar se todas as informações estão sendo gravadas, recuperadas e removidas corretamente.
+
+---
+
+## Figura 5 – Boas práticas
+
+```text
+Boas práticas
+│
+├── Organizar Tags
+├── Salvar apenas dados necessários
+├── Não armazenar senhas
+├── Testar o aplicativo
+└── Limpar dados antigos
+```
