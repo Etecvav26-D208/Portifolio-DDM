@@ -137,3 +137,220 @@ Aplicativo
  ├── "Idade" ────► 20
  └── "Cidade" ───► "Jundiaí"
 ```
+# 3. Funcionamento do TinyDB
+
+O TinyDB utiliza um modelo de armazenamento baseado em **Tags (chaves)** e **Values (valores)**. Cada informação é salva utilizando uma Tag, que funciona como um identificador único, e um Value, que corresponde ao dado armazenado. Esse modelo, conhecido como **chave-valor (key-value)**, permite localizar rapidamente qualquer informação gravada no dispositivo (MIT APP INVENTOR, 2026).
+
+Por exemplo, um aplicativo pode utilizar a Tag **"Nome"** para armazenar o valor **"Maria"**. Quando o aplicativo precisar exibir o nome do usuário, basta buscar o valor associado à Tag correspondente.
+
+## Tags (Chaves)
+
+As **Tags** são utilizadas para identificar cada informação armazenada no TinyDB. Cada Tag deve possuir um nome único e representativo, facilitando a organização e a recuperação dos dados.
+
+### Exemplos de Tags
+
+| Tag | Informação armazenada |
+|------|-----------------------|
+| Nome | Maria |
+| Idade | 20 |
+| Cidade | Jundiaí |
+| Pontuação | 850 |
+| Tema | Escuro |
+
+É recomendado utilizar nomes simples e objetivos para evitar erros durante o desenvolvimento.
+
+---
+
+## Values (Valores)
+
+Os **Values** representam os dados associados às Tags. O TinyDB permite armazenar diferentes tipos de informações, como:
+
+- Textos;
+- Números;
+- Valores lógicos (verdadeiro ou falso);
+- Listas;
+- Datas;
+- Configurações do aplicativo.
+
+Essa flexibilidade permite desenvolver diferentes tipos de aplicativos utilizando um único componente de armazenamento.
+
+---
+
+## Gravação de informações
+
+Para armazenar um dado no TinyDB utiliza-se o bloco **StoreValue**. Esse bloco recebe uma Tag e um Value, gravando a informação na memória interna do dispositivo.
+
+Sempre que um novo valor é salvo utilizando uma Tag já existente, o valor anterior é substituído automaticamente (MIT APP INVENTOR, 2026).
+
+### Exemplo
+
+```text
+Tag: Nome
+Valor: Maria
+```
+
+Após executar o bloco, a informação ficará armazenada permanentemente.
+
+---
+
+## Leitura de informações
+
+Para recuperar um dado utiliza-se o bloco **GetValue**. Basta informar a Tag correspondente e o TinyDB retornará o valor armazenado.
+
+Caso a Tag não exista, é possível definir um valor padrão (*Default Value*), evitando erros na aplicação.
+
+### Exemplo
+
+```text
+Tag pesquisada: Nome
+
+Resultado:
+Maria
+```
+
+---
+
+## Atualização de dados
+
+A atualização ocorre quando um novo valor é gravado utilizando a mesma Tag.
+
+### Exemplo
+
+Antes:
+
+```text
+Nome → Maria
+```
+
+Depois:
+
+```text
+Nome → Ana
+```
+
+O valor "Maria" será substituído automaticamente por "Ana".
+
+---
+
+## Remoção de dados
+
+Quando uma informação não é mais necessária, ela pode ser removida utilizando os blocos **ClearTag** ou **ClearAll**.
+
+A remoção de dados ajuda a manter o armazenamento organizado e evita o acúmulo de informações desnecessárias.
+
+---
+
+## Figura 3 – Funcionamento do TinyDB
+
+```text
+Aplicativo
+     │
+     ▼
+StoreValue
+     │
+     ▼
+ Tag: Nome
+ Valor: Maria
+     │
+     ▼
+ TinyDB
+     │
+     ▼
+Memória do dispositivo
+```
+
+---
+
+# 4. Componentes Relacionados
+
+O TinyDB possui quatro blocos principais responsáveis pelo gerenciamento das informações armazenadas.
+
+## StoreValue
+
+O bloco **StoreValue** grava informações no TinyDB.
+
+Ele recebe dois parâmetros:
+
+- Tag;
+- Value.
+
+Sempre que utilizado, o valor ficará armazenado até ser alterado ou removido.
+
+### Quando utilizar?
+
+- Salvar configurações;
+- Cadastrar usuários;
+- Armazenar listas;
+- Salvar pontuações de jogos;
+- Registrar preferências do usuário.
+
+---
+
+## GetValue
+
+O bloco **GetValue** recupera um valor armazenado anteriormente.
+
+Caso a Tag não exista, pode retornar um valor padrão definido pelo desenvolvedor.
+
+### Quando utilizar?
+
+- Exibir dados do usuário;
+- Recuperar configurações;
+- Carregar listas;
+- Mostrar pontuações salvas.
+
+---
+
+## ClearTag
+
+O bloco **ClearTag** remove apenas uma informação específica.
+
+### Exemplo
+
+Antes:
+
+```text
+Nome → Maria
+Cidade → Jundiaí
+```
+
+Após executar **ClearTag("Cidade")**:
+
+```text
+Nome → Maria
+```
+
+Somente a Tag "Cidade" será removida.
+
+### Quando utilizar?
+
+- Excluir cadastros;
+- Apagar configurações específicas;
+- Remover informações antigas.
+
+---
+
+## ClearAll
+
+O bloco **ClearAll** remove todas as informações armazenadas no TinyDB.
+
+Após sua execução, todas as Tags e seus respectivos valores são apagados.
+
+### Quando utilizar?
+
+- Restaurar configurações de fábrica;
+- Limpar completamente os dados do aplicativo;
+- Reiniciar o armazenamento local.
+
+---
+
+## Tabela comparativa dos blocos
+
+| Bloco | Função | Quando utilizar |
+|--------|---------|----------------|
+| StoreValue | Armazena informações | Salvar dados |
+| GetValue | Recupera informações | Ler dados salvos |
+| ClearTag | Remove uma Tag | Excluir um dado específico |
+| ClearAll | Remove todos os dados | Limpar completamente o TinyDB |
+
+Segundo a documentação oficial do MIT App Inventor (2026), esses quatro blocos representam as principais operações realizadas no TinyDB e permitem implementar aplicações capazes de armazenar informações de forma simples e eficiente.
