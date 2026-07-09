@@ -131,8 +131,13 @@ MIT App Inventor
 ```
 
 ---
+### Figura 7 – Funcionamento do TinyDB
 
-## Figura 2 – Funcionamento do TinyDB
+![Funcionamento do TinyDB](imagens/imagem7.png)
+
+*Figura 7 – Funcionamento do armazenamento utilizando Tags e Values.*
+
+## Funcionamento do TinyDB
 
 ```text
 Aplicativo
@@ -207,6 +212,13 @@ Após executar o bloco, a informação ficará armazenada permanentemente.
 Para recuperar um dado utiliza-se o bloco **GetValue**. Basta informar a Tag correspondente e o TinyDB retornará o valor armazenado.
 
 Caso a Tag não exista, é possível definir um valor padrão (*Default Value*), evitando erros na aplicação.
+
+### Figura 3 – Blocos StoreValue e GetValue
+
+![Blocos TinyDB](imagens/storevalue-getvalue.png)
+
+*Figura 3 – Blocos utilizados para gravar e recuperar informações no TinyDB.*
+
 
 ### Exemplo
 
@@ -402,17 +414,11 @@ O TinyDB permite salvar preferências do usuário, como:
 
 ---
 
-## Figura 4 – Exemplos de utilização
+### Figura 5 – Exemplos de utilização do TinyDB
 
-```text
-TinyDB
-│
-├── Lista de tarefas
-├── Cadastro
-├── Jogos
-├── Controle financeiro
-└── Configurações
-```
+![Aplicações do TinyDB](imagens/imagem5.png)
+
+*Figura 5 – Exemplos de aplicativos que utilizam o TinyDB para armazenamento local.*
 
 ---
 
@@ -432,6 +438,13 @@ O TinyDB armazena informações na memória do próprio dispositivo. Já o TinyW
 | Velocidade | Alta | Depende da conexão |
 | Indicado para | Aplicativos simples | Aplicativos colaborativos |
 
+### Figura 4 – Comparação entre TinyDB e TinyWebDB
+
+![Comparação entre TinyDB e TinyWebDB](imagens/imagem4.png)
+
+*Figura 4 – Comparação entre o armazenamento local (TinyDB) e o armazenamento online (TinyWebDB).*
+
+---
 ## Quando utilizar?
 
 ### TinyDB
@@ -492,8 +505,13 @@ Utilizar os blocos **ClearTag** e **ClearAll** quando necessário evita o acúmu
 Antes da publicação, é importante verificar se todas as informações estão sendo gravadas, recuperadas e removidas corretamente.
 
 ---
+### Figura 6 – Boas práticas de utilização do TinyDB
 
-## Figura 5 – Boas práticas
+![Boas práticas](imagens/imagem6.png)
+
+*Figura 6 – Recomendações para organizar e proteger os dados armazenados no TinyDB.*
+
+## Boas práticas
 
 ```text
 Boas práticas
