@@ -57,6 +57,11 @@ Entre as principais vantagens destacam-se:
 Segundo Wolber et al. (2015), o App Inventor possibilita que estudantes aprendam programação desenvolvendo aplicativos reais de maneira simples e interativa.
 
 ---
+### Figura 1 – Interface do MIT App Inventor
+
+![Interface do MIT App Inventor](imagens/appinventor.png)
+
+*Figura 1 – Ambiente de desenvolvimento do MIT App Inventor com as áreas Designer e Blocks.*
 
 # 2. O que é o TinyDB?
 
@@ -107,8 +112,13 @@ Apesar de suas vantagens, o TinyDB possui algumas limitações:
 Por isso, quando uma aplicação necessita compartilhar informações entre vários usuários ou dispositivos, recomenda-se utilizar componentes como o TinyWebDB ou bancos de dados hospedados em servidores.
 
 ---
+### Figura 2 – Estrutura do TinyDB
 
-## Figura 1 – Estrutura básica do MIT App Inventor
+![Funcionamento do TinyDB](imagens/tinydb.png)
+
+*Figura 2 – O TinyDB armazena dados localmente utilizando Tags e Values.*
+
+## Estrutura básica do MIT App Inventor
 
 ```text
 MIT App Inventor
