@@ -7,7 +7,7 @@ Esta pasta foi criada para reunir e organizar todas as **atividades em grupo**, 
 📚 **Integrantes do Grupo:**
 - 👩 Maria Eduarda Pinto de Oliveira Rodrigues
 - 👩 Mariana Rasmussen Rezende Alves
-- 👨 Natan Alexandre
+- 👨 Natan Alexandro Costa
 - 👨 Pietro Fiorese Dopp
 
 🏫 **Turma:** 2ºD  
