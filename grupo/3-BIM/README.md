@@ -1,4 +1,4 @@
-# 👥 4º Bimestre
+# 👥 3º Bimestre
 
 Bem-vindo(a) à pasta do **3º Bimestre** das **Atividades em Grupo**! 🚀
 
