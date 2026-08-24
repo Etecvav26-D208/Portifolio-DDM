@@ -20,3 +20,19 @@ Antes de começar o desenvolvimento, o grupo deveria primeiro fazer um planejame
 Essas informações são importantes porque ajudam o grupo a entender o que realmente precisa ser feito, evitando funções desnecessárias e facilitando o desenvolvimento.
 
 ---
+## Questão 2 — Funciona, então está pronto?
+
+Não concordamos. O aplicativo funcionar corretamente apenas uma vez não significa que ele está pronto.
+
+Antes de finalizar, o grupo deveria fazer vários testes, como:
+
+- Tentar cadastrar uma atividade com campos vazios;
+- Inserir informações incorretas;
+- Testar todos os botões;
+- Cadastrar e excluir atividades;
+- Verificar se os dados continuam salvos depois de fechar o aplicativo;
+- Testar diferentes formas de utilização e tamanhos de tela.
+
+Assim, o grupo consegue encontrar e corrigir possíveis erros antes que o aplicativo seja utilizado pelos usuários.
+
+---
