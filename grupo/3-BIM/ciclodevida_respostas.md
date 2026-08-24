@@ -36,3 +36,12 @@ Antes de finalizar, o grupo deveria fazer vários testes, como:
 Assim, o grupo consegue encontrar e corrigir possíveis erros antes que o aplicativo seja utilizado pelos usuários.
 
 ---
+## Questão 3 — Mudanças fazem parte do desenvolvimento?
+
+Discordamos da afirmação. Não adianta todas as funcionalidades estarem funcionando se os usuários não conseguem entender como utilizar o aplicativo.
+
+A interface também faz parte do desenvolvimento e precisa ser simples, organizada e fácil de entender. Se os usuários estão tendo dificuldades, o grupo pode mudar a posição dos botões, melhorar os textos, reorganizar as informações ou fazer outras alterações necessárias.
+
+Depois das mudanças, o aplicativo deve ser testado novamente. Portanto, um problema de interface ou de experiência do usuário pode sim justificar mudanças, mesmo quando a programação está funcionando.
+
+---
