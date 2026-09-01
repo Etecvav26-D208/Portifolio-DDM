@@ -56,3 +56,61 @@ Apesar das mudanças visuais, foi mantida a principal proposta da atividade: uti
 
 ## Print da tela dos Blocos
 ![Blocos do App](./imagens_relatorio/blocos1.png)
+
+
+# Projeto 3 – Mesa de Bilhar
+
+## Descrição
+
+**Objetivo do aplicativo:**  
+O objetivo deste aplicativo é desenvolver um jogo de bilhar utilizando recursos de movimentação, colisão e interação por gestos. A atividade permite compreender melhor o funcionamento do Canvas e dos elementos presentes dentro dele, além de trabalhar conceitos relacionados ao movimento e à redução da velocidade da bola.
+
+**Funcionamento:**  
+O aplicativo apresenta uma mesa de bilhar com uma bola que pode ser lançada pelo jogador através de um movimento realizado com o dedo na tela.
+
+A direção e a força do movimento realizado pelo usuário determinam o deslocamento da bola. Quando ela atinge uma das bordas da mesa, ocorre uma rebatida, fazendo com que continue seu movimento em outra direção.
+
+A velocidade da bola diminui gradualmente durante seu deslocamento, simulando o comportamento de uma bola em uma mesa de bilhar.
+
+A mesa também possui seis caçapas. Quando a bola entra em uma delas, o aplicativo identifica a colisão, reproduz um efeito sonoro e reposiciona a bola para que uma nova jogada possa ser realizada.
+
+**Modificações realizadas:**  
+Em relação ao projeto original apresentado na apostila, foram realizadas diversas modificações para criar uma versão mais completa e personalizada do jogo.
+
+A principal alteração foi a criação de uma nova identidade visual chamada **Damas de Ouro**, substituindo a mesa tradicional verde por mesas personalizadas e utilizando principalmente as cores rosa, preto e dourado.
+
+Também foi criada uma tela inicial para o jogo, permitindo que o jogador escolha entre **Modo Fácil** e **Modo Difícil**. Cada modo possui sua própria mesa e apresenta diferenças na dificuldade da partida.
+
+Foi adicionado um sistema de pontuação que contabiliza os acertos realizados pelo jogador. Ao atingir a quantidade necessária de pontos, o aplicativo apresenta uma mensagem de vitória.
+
+Também foram adicionados novos efeitos sonoros, incluindo um som para os acertos e outro específico para a vitória.
+
+Além disso, foram realizadas alterações na velocidade e na movimentação da bola, buscando deixar as jogadas mais rápidas e dinâmicas.
+
+Com essas modificações, o aplicativo deixou de ser apenas uma demonstração simples do funcionamento de uma mesa de bilhar e passou a apresentar diferentes telas, níveis de dificuldade, pontuação, sons e uma identidade visual própria.
+
+---
+
+## Print das telas do Design
+
+### Tela Inicial
+![Tela Inicial](./imagens_relatorio/design3.1.png)
+
+### Modo Fácil
+![Modo Fácil](./imagens_relatorio/design3.2.png)
+
+### Modo Difícil
+![Modo Difícil](./imagens_relatorio/design3.3.png)
+
+---
+
+## Print das telas dos Blocos
+
+### Blocos da Tela Inicial
+![Blocos da Tela Inicial](./imagens_relatorio/blocos3.1.png)
+
+### Blocos do Modo Fácil
+![Blocos do Modo Fácil](./imagens_relatorio/blocos3.2.png)
+
+### Blocos do Modo Difícil
+![Blocos do Modo Difícil](./imagens_relatorio/blocos3.3.png)
