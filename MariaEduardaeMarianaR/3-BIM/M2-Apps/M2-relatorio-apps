@@ -22,3 +22,37 @@
 - `Mariana Rasmussen Rezende Alves`
 
 ---
+# Projeto 1 – Acelerômetro
+
+## Descrição
+
+**Objetivo do aplicativo:**  
+O objetivo deste aplicativo é demonstrar o funcionamento do sensor acelerômetro presente nos dispositivos móveis. A atividade permite observar os valores dos eixos X, Y e Z e utilizar essas informações para controlar o movimento de uma imagem na tela.
+
+**Funcionamento:**  
+O aplicativo utiliza o acelerômetro do celular para identificar sua movimentação e inclinação.
+
+Na tela são apresentados os valores dos três eixos do acelerômetro: X, Y e Z. Esses valores são atualizados conforme o usuário movimenta o dispositivo.
+
+Além disso, há uma área de jogo contendo um carro. Conforme o celular é inclinado, o acelerômetro identifica o movimento e utiliza essas informações para controlar o carro dentro da tela.
+
+O aplicativo também permite identificar quando o celular é chacoalhado, utilizando essa ação para realizar uma alteração na interface.
+
+**Modificações realizadas:**  
+Em relação ao aplicativo original apresentado na apostila, foram realizadas principalmente alterações visuais.
+
+A imagem original do carro de Fórmula foi substituída por uma nova imagem, e a área onde o carro se movimenta recebeu uma pista personalizada como plano de fundo.
+
+Também foram realizadas mudanças na organização e aparência da interface, incluindo títulos, textos e elementos responsáveis por apresentar os valores dos eixos X, Y e Z.
+
+Apesar das mudanças visuais, foi mantida a principal proposta da atividade: utilizar o acelerômetro do celular para detectar seus movimentos e controlar o elemento presente na tela.
+
+---
+
+## Print da tela do Design
+![Design do App](./imagens_relatorio/design1.png)
+
+---
+
+## Print da tela dos Blocos
+![Blocos do App](./imagens_relatorio/blocos1.png)
