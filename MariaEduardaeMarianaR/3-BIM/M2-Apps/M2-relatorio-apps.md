@@ -83,10 +83,10 @@ Foram modificados elementos visuais da tela e a organização dos componentes, m
 ![Design do App](./imagens-M2/interface3.png)
 
 ### Modo Fácil
-![Design do App](./imagens-M2/interface3.1.png)
+![Design do App](./imagens-M2/interface3.2.png)
 
 ### Modo Difícil
-![Design do App](./imagens-M2/interface3.2.png)
+![Design do App](./imagens-M2/interface3.3.png)
 
 ---
 
