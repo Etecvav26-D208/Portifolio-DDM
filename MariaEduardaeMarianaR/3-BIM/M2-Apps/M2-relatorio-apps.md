@@ -54,7 +54,7 @@ Apesar das mudanças visuais, foi mantida a principal proposta da atividade: uti
 ---
 
 ## Print da tela dos Blocos
-![Blocos do App](./imagens_relatorio/blocos1.png)
+![Design do App](./imagens-M2/bloco1.png)
 
 # Projeto 2 – MagicBall com Acelerômetro
 
@@ -79,14 +79,18 @@ Foram modificados elementos visuais da tela e a organização dos componentes, m
 
 ## Print das telas do Design
 
-![Design do App](./imagens_relatorio/design2.png)
-
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
 ---
 
 ## Print das telas dos Blocos
 
-![Blocos do App](./imagens_relatorio/blocos2.png)
-
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
+![Design do App](./imagens-M2/interface1.png)
 ---
 
 # Projeto 3 – Mesa de Bilhar
@@ -125,20 +129,20 @@ Com essas modificações, o aplicativo deixou de ser apenas uma demonstração s
 ## Print das telas do Design
 
 ### Tela Inicial
-![Tela Inicial](./imagens_relatorio/design3.1.png)
+![Design do App](./imagens-M2/interface2.1.png)
 
 ### Modo Fácil
-![Modo Fácil](./imagens_relatorio/design3.2.png)
+![Design do App](./imagens-M2/interface2.2.png)
 
 ### Modo Difícil
-![Modo Difícil](./imagens_relatorio/design3.3.png)
+![Design do App](./imagens-M2/interface2.3.png)
 
 ---
 
 ## Print das telas dos Blocos
 
 ### Blocos da Tela Inicial
-![Blocos da Tela Inicial](./imagens_relatorio/blocos3.1.png)
+![Design do App](./imagens-M2/blocos2.1.png)
 
 ### Blocos do Modo Fácil
 ![Blocos do Modo Fácil](./imagens_relatorio/blocos3.2.png)
