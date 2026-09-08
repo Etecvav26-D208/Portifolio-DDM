@@ -57,6 +57,38 @@ Apesar das mudanças visuais, foi mantida a principal proposta da atividade: uti
 ## Print da tela dos Blocos
 ![Blocos do App](./imagens_relatorio/blocos1.png)
 
+# Projeto 2 – MagicBall com Acelerômetro
+
+## Descrição
+
+**Objetivo do aplicativo:**  
+O objetivo deste aplicativo é desenvolver uma aplicação utilizando o acelerômetro do celular para controlar uma bola na tela. A atividade apresenta uma continuação dos conhecimentos trabalhados anteriormente com o sensor, utilizando seus valores para criar uma interação diferente com o usuário. :contentReference[oaicite:0]{index=0}
+
+**Funcionamento:**  
+O aplicativo apresenta uma bola dentro de uma área de jogo. O movimento da bola é controlado a partir dos dados obtidos pelo acelerômetro do dispositivo.
+
+Ao inclinar ou movimentar o celular, os valores identificados pelo sensor são utilizados para alterar a posição da bola na tela. Dessa forma, o jogador consegue controlar o deslocamento da bola utilizando os movimentos do próprio aparelho.
+
+A atividade também trabalha elementos de jogo, como uma área delimitada para a movimentação da bola e a interação entre os componentes presentes na tela. :contentReference[oaicite:1]{index=1}
+
+**Modificações realizadas:**  
+Em relação ao exemplo apresentado na atividade, foram realizadas alterações na interface visual do aplicativo, buscando deixar a apresentação mais organizada e personalizada.
+
+Foram modificados elementos visuais da tela e a organização dos componentes, mantendo como principal funcionalidade o uso do acelerômetro para controlar a movimentação da bola.
+
+---
+
+## Print das telas do Design
+
+![Design do App](./imagens_relatorio/design2.png)
+
+---
+
+## Print das telas dos Blocos
+
+![Blocos do App](./imagens_relatorio/blocos2.png)
+
+---
 
 # Projeto 3 – Mesa de Bilhar
 
