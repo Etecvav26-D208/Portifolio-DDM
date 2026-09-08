@@ -145,7 +145,11 @@ Com essas modificações, o aplicativo deixou de ser apenas uma demonstração s
 ![Design do App](./imagens-M2/blocos2.1.png)
 
 ### Blocos do Modo Fácil
-![Blocos do Modo Fácil](./imagens_relatorio/blocos3.2.png)
-
+![Design do App](./imagens-M2/bloco2.2.png)
+![Design do App](./imagens-M2/bloco2.3.png)
 ### Blocos do Modo Difícil
-![Blocos do Modo Difícil](./imagens_relatorio/blocos3.3.png)
+![Design do App](./imagens-M2/bloco2.4.png)
+![Design do App](./imagens-M2/bloco2.5.png)
+
+
+
