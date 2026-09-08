@@ -93,7 +93,7 @@ Foram modificados elementos visuais da tela e a organização dos componentes, m
 ## Print das telas dos Blocos
 
 ### Blocos da Tela Inicial
-![Design do App](./imagens-M2/blocos3.png)
+![Design do App](./imagens-M2/bloco3.png)
 
 ### Blocos do Modo Fácil
 ![Design do App](./imagens-M2/bloco3.1.png)
