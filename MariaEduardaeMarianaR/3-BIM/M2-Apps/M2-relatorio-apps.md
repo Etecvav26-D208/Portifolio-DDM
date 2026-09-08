@@ -154,7 +154,7 @@ Com essas modificações, o aplicativo deixou de ser apenas uma demonstração s
 ## Print das telas dos Blocos
 
 ### Blocos da Tela Inicial
-![Design do App](./imagens-M2/blocos2.1.png)
+![Design do App](./imagens-M2/bloco2.1.png)
 
 ### Blocos do Modo Fácil
 ![Design do App](./imagens-M2/bloco2.4.png)
