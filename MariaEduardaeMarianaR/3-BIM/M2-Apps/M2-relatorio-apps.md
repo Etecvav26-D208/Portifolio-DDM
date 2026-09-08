@@ -79,18 +79,30 @@ Foram modificados elementos visuais da tela e a organização dos componentes, m
 
 ## Print das telas do Design
 
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
+### Tela Inicial
+![Design do App](./imagens-M2/interface3.png)
+
+### Modo Fácil
+![Design do App](./imagens-M2/interface3.1.png)
+
+### Modo Difícil
+![Design do App](./imagens-M2/interface3.2.png)
+
 ---
 
 ## Print das telas dos Blocos
 
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
-![Design do App](./imagens-M2/interface1.png)
+### Blocos da Tela Inicial
+![Design do App](./imagens-M2/blocos3.png)
+
+### Blocos do Modo Fácil
+![Design do App](./imagens-M2/bloco3.1.png)
+![Design do App](./imagens-M2/bloco3.2.png)
+### Blocos do Modo Difícil
+![Design do App](./imagens-M2/bloco3.3.png)
+![Design do App](./imagens-M2/bloco3.4.png)
+![Design do App](./imagens-M2/bloco3.5.png)
+
 ---
 
 # Projeto 3 – Mesa de Bilhar
